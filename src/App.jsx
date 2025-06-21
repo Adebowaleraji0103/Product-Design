@@ -1,6 +1,6 @@
 import Header from "./component/Header";
 import Card from "./component/Card";
-
+import ConfirmOrder from "./component/ConfirmOrder";
 
  const allProduductCard = [
   {
@@ -65,6 +65,7 @@ const App = () => {
       <Header/>
 
     {allProduductCard.map((product) =><Card productDetails={product}/>)}
+    <ConfirmOrder/>
     </div>
     );
 }
