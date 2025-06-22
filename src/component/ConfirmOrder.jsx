@@ -20,12 +20,12 @@ const ConfirmOrder = () => {
         </div>
 
         <div className="flex flex-col border-b-zinc-300 border-b-[0.2px] py-5 font-semibold">
-          <p>Classic Tiramisu</p>
+          <p>Vanilla Bean Creame</p>
           <div className="flex justify-between items-center">
             <div className="flex gap-3">
               <span className="text-rose-700">1x</span>{" "}
               <p className="text-zinc-400">@$5.50</p>{" "}
-              <p className="text-zinc-600">@$5.50</p>
+              <p className="text-zinc-600">@$28.00</p>
             </div>
             <div>
               <TiDeleteOutline className="size-5 text-zinc-600" />
