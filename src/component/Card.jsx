@@ -3,8 +3,8 @@ import { MdOutlineAddShoppingCart } from "react-icons/md";
 const Card = ({productDetails}) => {
     console.log(productDetails.label)
   return (
-    <div className=" px-6 ">
-      <div className="w-[full] h-[15rem] object-center">
+    <div className=" px-4 ">
+      <div className="w-[full] h-[16rem] object-center">
         <img
           className="w-full h-full rounded-[10px]"
           src="./images/first.jpg"

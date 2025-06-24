@@ -2,7 +2,7 @@ import Header from "./component/Header";
 import Card from "./component/Card";
 import ConfirmOrder from "./component/ConfirmOrder";
 
- const allProduductCard = [
+const allProduductCard = [
   {
     image: "./images/first.jpg",
     label: "Popular",
@@ -57,20 +57,22 @@ import ConfirmOrder from "./component/ConfirmOrder";
     name: "Cupcake",
     price: "3.25",
   },
- ]
+];
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Header />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg-grid-cols-4 gap-x-0">
+        {allProduductCard.map((product) => (
+          <Card productDetails={product} />
+        ))}
+      </div>
 
-    {allProduductCard.map((product) =><Card productDetails={product}/>)}
-    <ConfirmOrder/>
+      <ConfirmOrder />
     </div>
-    );
-}
- 
-export default App;
-<div>
+  );
+};
 
-</div>
+export default App;
+<div></div>;
