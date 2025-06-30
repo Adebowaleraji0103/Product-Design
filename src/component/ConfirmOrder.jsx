@@ -2,7 +2,7 @@ import { TiDeleteOutline } from "react-icons/ti";
 
 const ConfirmOrder = () => {
   return (
-    <div className="flex justify-center mb-[5rem]">
+    <div className="flex mb-[5rem] w-[400px]">
       <div className="px-[2rem] py-[1rem] bg-white w-[85%] mt-16 rounded-[10px] text-[14px]">
         <h1 className="font-bold text-[27px] text-rose-700">Your Cart(7)</h1>
         <div className="flex flex-col border-b-zinc-300 border-b-[0.2px] py-5 font-semibold">

@@ -63,7 +63,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div  className="grid lg:grid-cols-2">
+      <div  className=" lg:flex lg:justify-between ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg-grid-cols-4 gap-x-0">
           {allProduductCard.map((product) => (
             <Card productDetails={product} />
