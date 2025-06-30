@@ -69,7 +69,7 @@ const App = () => {
         ))}
       </div>
 
-      {/* <ConfirmOrder /> */}
+      <ConfirmOrder />
     </div>
   );
 };
